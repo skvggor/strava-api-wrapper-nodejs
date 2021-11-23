@@ -1,0 +1,23 @@
+{
+  "name": "strava-stats",
+  "version": "1.0.0",
+  "description": "My Strava Stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcker/strava-stats.git"
+  },
+  "keywords": [
+    "strava",
+    "stats"
+  ],
+  "author": "marcker <marckfree@gmail.com> (http://marcker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcker/strava-stats/issues"
+  },
+  "homepage": "https://github.com/marcker/strava-stats#readme"
+}
