@@ -33,7 +33,7 @@ axios.post(`${apiBaseUrl}${endpoints.oauthToken}`, {
       app.get('/strava-stats', (req, res) => {
         res.end(JSON.stringify({
           status: 'OK',
-          distanceInMeters: response.data.ytd_ride_totals.distance
+          distanceInMeters: response.data.ytd_ride_totals.distance,
         }))
       })
 
@@ -41,7 +41,7 @@ axios.post(`${apiBaseUrl}${endpoints.oauthToken}`, {
     })
 
     .catch((error) => {
-      console.error('INDEX.JS | AXIOS.GET ', error.response.data)
+      console.error('file: index.js > axios.get ', error.response.data)
     })
   })
 
