@@ -1,4 +1,4 @@
-# strava-stats
+# strava-stats-api
 
 > My Strava Stats API
 

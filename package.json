@@ -1,7 +1,7 @@
 {
   "name": "strava-stats",
   "version": "1.0.0",
-  "description": "My Strava Stats",
+  "description": "My Strava stats API",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/marcker/strava-stats/issues"
   },
-  "homepage": "https://github.com/marcker/strava-stats#readme"
+  "homepage": "https://github.com/marcker/strava-stats#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
 }
